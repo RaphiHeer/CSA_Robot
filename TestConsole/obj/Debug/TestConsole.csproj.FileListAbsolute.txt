@@ -1,0 +1,14 @@
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\TestConsole.exe
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\TestConsole.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\RobotCtrl.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\RobotIO.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\RobotView.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\RobotCtrl.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\RobotIO.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\bin\Debug\RobotView.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\obj\Debug\TestConsole.csprojResolveAssemblyReference.cache
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\obj\Debug\TestConsole.Form1.resources
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\obj\Debug\TestConsole.Properties.Resources.resources
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\obj\Debug\TestConsole.csproj.GenerateResource.Cache
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\obj\Debug\TestConsole.exe
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestConsole\obj\Debug\TestConsole.pdb
