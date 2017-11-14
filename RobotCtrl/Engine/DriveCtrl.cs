@@ -45,34 +45,38 @@ namespace RobotCtrl
         }
 
 
+
         /// <summary>
         /// Liefert den Status ob der rechte Motor ein-/ausgeschaltet ist bzw. schaltet den rechten Motor ein-/aus.
         /// Die Information dazu steht im Bit0 von DriveState.
         /// </summary>
         public bool PowerRight
         {
-            get { return false; } // ToDo
-            set { } // ToDo
+            get { return ((DriveState | (1 << 0)) != 0); } // ToDo
+            set { DriveState = value ? DriveState | (1 << 0) : DriveState & ~(1 << 0); } // ToDo
         }
-
 
         /// <summary>
         /// Liefert den Status ob der linke Motor ein-/ausgeschaltet ist bzw. schaltet den linken Motor ein-/aus.
         /// </summary>
         public bool PowerLeft
         {
-            get { return false; } // ToDo
-            set { } // ToDo
+            get { return ((DriveState | (1 << 1)) != 0); }
+            set { DriveState = value ? DriveState | (1 << 1) : DriveState & ~(1 << 1); }
         }
 
 
+        private int drivestate = 0;
         /// <summary>
         /// Bietet Zugriff auf das Status-/Controlregister
         /// </summary>
         public int DriveState
         {
-            get { return 0; } // ToDo
-            set { } // ToDo
+            get { return drivestate = IOPort.Read(ioAddress); }
+            set
+            {
+                IOPort.Write(ioAddress, value);
+            }
         }
         #endregion
 
@@ -84,7 +88,15 @@ namespace RobotCtrl
         /// </summary>
         public void Reset()
         {
-            // ToDo
+            lock(this)
+            {
+                DriveState = 0x00;
+                Thread.Sleep(5);
+                DriveState = 0x80;
+                Thread.Sleep(5);
+                DriveState = 0x00;
+                Thread.Sleep(5);
+            }
         }
         #endregion
 

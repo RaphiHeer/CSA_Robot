@@ -1,0 +1,12 @@
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\bin\Debug\TestMotor.exe
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\bin\Debug\TestMotor.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\bin\Debug\RobotView.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\bin\Debug\RobotCtrl.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\bin\Debug\RobotView.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\bin\Debug\RobotCtrl.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\obj\Debug\TestMotor.csprojResolveAssemblyReference.cache
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\obj\Debug\TestMotor.Form1.resources
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\obj\Debug\TestMotor.Properties.Resources.resources
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\obj\Debug\TestMotor.csproj.GenerateResource.Cache
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\obj\Debug\TestMotor.exe
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\TestMotor\obj\Debug\TestMotor.pdb

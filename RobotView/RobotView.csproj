@@ -49,11 +49,29 @@
     <Compile Include="ConsoleView.designer.cs">
       <DependentUpon>ConsoleView.cs</DependentUpon>
     </Compile>
+    <Compile Include="DriveCtrlView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DriveCtrlView.designer.cs">
+      <DependentUpon>DriveCtrlView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DriveView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="DriveView.designer.cs">
+      <DependentUpon>DriveView.cs</DependentUpon>
+    </Compile>
     <Compile Include="LedView.cs">
       <SubType>usercontrol</SubType>
     </Compile>
     <Compile Include="LedView.designer.cs">
       <DependentUpon>LedView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotorCtrlView.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="MotorCtrlView.designer.cs">
+      <DependentUpon>MotorCtrlView.cs</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Resource.Designer.cs">
@@ -79,8 +97,17 @@
     <EmbeddedResource Include="ConsoleView.resx">
       <DependentUpon>ConsoleView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="DriveCtrlView.resx">
+      <DependentUpon>DriveCtrlView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DriveView.resx">
+      <DependentUpon>DriveView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LEDView.resx">
       <DependentUpon>LedView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MotorCtrlView.resx">
+      <DependentUpon>MotorCtrlView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Resource.resx">
       <Generator>ResXFileCodeGenerator</Generator>
