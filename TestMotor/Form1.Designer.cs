@@ -8,7 +8,6 @@ namespace TestMotor
         /// Required designer variable.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.MainMenu mainMenu1;
 
         private DriveCtrlView driveCtrlView;
         private MotorCtrlView motorCtrlViewLeft;
@@ -35,7 +34,6 @@ namespace TestMotor
         /// </summary>
         private void InitializeComponent()
         {
-            this.mainMenu1 = new System.Windows.Forms.MainMenu();
             this.driveCtrlView = new RobotView.DriveCtrlView();
             this.motorCtrlViewLeft = new RobotView.MotorCtrlView();
             this.motorCtrlViewRight = new RobotView.MotorCtrlView();
@@ -44,14 +42,14 @@ namespace TestMotor
             // driveCtrlView
             // 
             this.driveCtrlView.DriveCtrl = null;
-            this.driveCtrlView.Location = new System.Drawing.Point(601, 6);
+            this.driveCtrlView.Location = new System.Drawing.Point(370, 25);
             this.driveCtrlView.Name = "driveCtrlView";
             this.driveCtrlView.Size = this.driveCtrlView.Size;
             this.driveCtrlView.TabIndex = 0;
             // 
             // motorCtrlViewLeft
             // 
-            this.motorCtrlViewLeft.Location = new System.Drawing.Point(6, 132);
+            this.motorCtrlViewLeft.Location = new System.Drawing.Point(6, 104);
             this.motorCtrlViewLeft.MotorCtrl = null;
             this.motorCtrlViewLeft.Name = "motorCtrlViewLeft";
             this.motorCtrlViewLeft.Size = this.motorCtrlViewLeft.Size;
@@ -59,7 +57,7 @@ namespace TestMotor
             // 
             // motorCtrlViewRight
             // 
-            this.motorCtrlViewRight.Location = new System.Drawing.Point(880, 132);
+            this.motorCtrlViewRight.Location = new System.Drawing.Point(535, 104);
             this.motorCtrlViewRight.MotorCtrl = null;
             this.motorCtrlViewRight.Name = "motorCtrlViewRight";
             this.motorCtrlViewRight.Size = this.motorCtrlViewRight.Size;
@@ -67,14 +65,12 @@ namespace TestMotor
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1769, 937);
+            this.ClientSize = new System.Drawing.Size(1218, 895);
             this.Controls.Add(this.driveCtrlView);
             this.Controls.Add(this.motorCtrlViewLeft);
             this.Controls.Add(this.motorCtrlViewRight);
-            this.Menu = this.mainMenu1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

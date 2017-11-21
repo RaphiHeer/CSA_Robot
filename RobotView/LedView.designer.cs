@@ -41,8 +41,7 @@ namespace RobotView
             // 
             // LedView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(192F, 192F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.Controls.Add(this.pictureBox1);
             this.Name = "LedView";
             this.Size = new System.Drawing.Size(40, 40);

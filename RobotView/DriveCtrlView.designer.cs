@@ -41,7 +41,7 @@ namespace RobotView
             // 
             this.textBoxDriveCtrlStatus.Location = new System.Drawing.Point(197, 29);
             this.textBoxDriveCtrlStatus.Name = "textBoxDriveCtrlStatus";
-            this.textBoxDriveCtrlStatus.Size = new System.Drawing.Size(72, 23);
+            this.textBoxDriveCtrlStatus.Size = new System.Drawing.Size(72, 39);
             this.textBoxDriveCtrlStatus.TabIndex = 15;
             // 
             // label4
@@ -92,8 +92,7 @@ namespace RobotView
             // 
             // DriveCtrlView
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Inherit;
             this.Controls.Add(this.textBoxDriveCtrlStatus);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.checkBoxDriveCtrlRight);

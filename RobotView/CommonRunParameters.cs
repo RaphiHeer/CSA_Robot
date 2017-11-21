@@ -101,17 +101,26 @@ namespace RobotView
             remove { upDownAcceleration.ValueChanged -= value; }
         }
 
-        private void upDownSpeed_GotFocus(object sender, EventArgs e)
+        private void btnKeyboardSpeed_Click(object sender, EventArgs e)
         {
-            this.Focus();
+            NumberKeyboard nk = new NumberKeyboard();
+            if(nk.ShowDialog() == DialogResult.OK)
+            {
+                decimal number = (decimal)nk.Number;
+                if (number >= upDownSpeed.Minimum && number <= upDownSpeed.Maximum)
+                    this.upDownSpeed.Value = number;
+            }
+        }
+
+        private void btnKeyboardAcceleration_Click(object sender, EventArgs e)
+        {
             NumberKeyboard nk = new NumberKeyboard();
             if (nk.ShowDialog() == DialogResult.OK)
             {
-
+                decimal number = (decimal)nk.Number;
+                if (number >= upDownAcceleration.Minimum && number <= upDownAcceleration.Maximum)
+                    this.upDownAcceleration.Value = number;
             }
-
-            
-
         }
         #endregion
 

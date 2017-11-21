@@ -13,7 +13,6 @@ namespace TestConsole
     public partial class Form1 : Form
     {
         private RobotConsole rc;
-        private int pos;
 
         public Form1()
         {

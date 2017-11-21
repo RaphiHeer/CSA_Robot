@@ -1,4 +1,7 @@
 C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\bin\Debug\RobotCtrl.dll
 C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\bin\Debug\RobotCtrl.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\bin\Debug\RobotIO.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\bin\Debug\RobotIO.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.csprojResolveAssemblyReference.cache
 C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.dll
 C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotCtrl\obj\Debug\RobotCtrl.pdb
