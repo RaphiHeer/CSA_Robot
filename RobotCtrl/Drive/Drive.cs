@@ -209,6 +209,11 @@ namespace RobotCtrl
         }
         #endregion
 
+        public void RunTrack(Track track)
+        {
+            if (track == null) this.track = track;
+        }
+
 
         #region other methods
         /// <summary>

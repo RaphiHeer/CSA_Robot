@@ -1,0 +1,11 @@
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotServer.exe
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotServer.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotCtrl.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotIO.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotView.dll
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotCtrl.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotIO.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\bin\Debug\RobotView.pdb
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\obj\Debug\RobotServer.csprojResolveAssemblyReference.cache
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\obj\Debug\RobotServer.exe
+C:\Users\rapha\documents\visual studio 2015\Projects\Robot\RobotServer\obj\Debug\RobotServer.pdb
